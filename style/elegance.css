@@ -239,6 +239,10 @@ a:hover, a:focus{
 	background: transparent;
 }
 
+.banner .btn:empty {
+	display: none;
+}
+
 .banner .btn:hover {
 	background: [[setting:themecolor]];
 }
