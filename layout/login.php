@@ -320,8 +320,9 @@ echo $OUTPUT->doctype() ?>
 
                     <?php if (isset($CFG->rememberusername) and $CFG->rememberusername == 2) { ?>
                         <div class="remember">
-                            <input type="checkbox" name="rememberusername" value="1"/>
-                            <label><?php echo get_string('rememberusername', 'admin'); ?></label>
+
+                            <label>
+                                <input type="checkbox" name="rememberusername" value="1"/><?php echo get_string('rememberusername', 'admin'); ?></label>
                         </div>
                     <?php } ?>
 
@@ -429,3 +430,4 @@ echo $OUTPUT->doctype() ?>
 
 </body>
 </html>
+
